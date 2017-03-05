@@ -22,7 +22,7 @@ React has support for a bunch of DOM events. You can check them in the [React do
 
 When using classes and `this` in javascript, often we need to bind the functions to the class instance that we are dealing with.
 
-For instance: 
+For instance:
 
 ```javascript
 const logThis = function() {
@@ -41,13 +41,13 @@ logPerson(); // logs {name: 'Tom'}
 logRobot(); // logs {name: 20}
 ```
 
-In react we also need to either apply this technique or to wrap our event callback: 
+In react we also need to either apply this technique or to wrap our event callback:
 
 ```javascript
 class Anchor extends React.Component {
   constructor() {
     super();
-    
+
     this.state = {
       visited: false
     };
@@ -92,7 +92,7 @@ class Anchor extends React.Component {
     }
 
     this.setState({
-      visited: true;
+      visited: true
     });
   }
   render() {
@@ -102,7 +102,7 @@ class Anchor extends React.Component {
       <a
         href='http://yld.io'
         target='_blank'
-        onClick={(ev) => this.visited(ev);}
+        onClick={(ev) => this.clicked(ev)}
       >
         YLD!${visited}
       </a>
