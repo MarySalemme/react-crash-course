@@ -67,7 +67,7 @@ class GuestList extends React.Component {
       <div>
         <div>
           <div className='form-group'>
-            <label>Name</label> // TODO add missing attr
+            <label>Name</label> {/* TODO add missing attr */ }
             <input
               value={this.state.guestName}
               onChange={this.changeName.bind(this)}
@@ -78,7 +78,7 @@ class GuestList extends React.Component {
             />
           </div>
           <div className='form-group'>
-            <label>Brings</label> // TODO add missing attr
+            <label>Brings</label> {/* TODO add missing attr */ }
             <input
               value={this.state.guestBrings}
               onChange={this.changeBrings.bind(this)}
