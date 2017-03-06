@@ -14,7 +14,7 @@ class Anchor extends React.Component {
 };
 ```
 
-Here we are creating a component named `Anchor`, that will render an anchor tag with an `href` that points to the *YLD!* website.
+Here we are creating a component named `Anchor`, that will render an anchor tag with an `href` that points to the *YLD* website.
 
 You might find this syntax odd: we are mixing HTML with Javascript.
 
@@ -30,7 +30,7 @@ const Anchor = React.createClass({
 });
 ```
 
-Although our future code snippets are going to be in ES2015, you can use both interchangeably. 
+Although our future code snippets are going to be in ES2015, you can use both interchangeably.
 
 ### JSX
 

@@ -66,7 +66,7 @@ class Page extends React.Component {
         <Header {...this.state} />
         {exercise}
         <div className='footer'>
-          © YLD! Limited {year}
+          © YLD Limited {year}
         </div>
       </div>
     );

@@ -70,7 +70,7 @@ class Anchor extends React.Component {
         target='_blank'
         onClick={this.clicked.bind(this)}
       >
-        YLD!${visited}
+        YLD${visited}
       </a>
     );
   }
@@ -104,7 +104,7 @@ class Anchor extends React.Component {
         target='_blank'
         onClick={(ev) => this.clicked(ev)}
       >
-        YLD!${visited}
+        YLD${visited}
       </a>
     );
   }
