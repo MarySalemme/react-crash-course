@@ -32,7 +32,7 @@ Will be rendered as:
 <div style="color:white;background-color:black;width:100px;">Hello World!</div>
 ```
 
-As you can notice, all style keys are declared in camelCase and when appropriate numbers are prepended with `px`.
+As you can notice, all style keys are declared in camelCase and when appropriate numbers are appended with `px`.
 
 If you want to go the inline styles route, we would advise you to use an external library like [Radium](http://projects.formidablelabs.com/radium/) to manage them.
 
