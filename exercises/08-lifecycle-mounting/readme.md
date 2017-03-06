@@ -34,4 +34,4 @@ Edit index.js so that:
 ## Resources
 
  * [Lifecycle Methods](https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods)
- * [findDOMNode](https://facebook.github.io/react/docs/working-with-the-browser.html#refs-and-finddomnode)
+ * [findDOMNode](https://facebook.github.io/react/docs/react-dom.html#finddomnode)
