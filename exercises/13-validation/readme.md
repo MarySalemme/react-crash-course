@@ -24,7 +24,7 @@ In the example `Anchor` accepts two properties:
 `React.PropTypes` exposes a much more validators. You should check the [documentation](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) to know about them all.
 
 
-You should rely on `propTypes` in production though. For performance reasons, props are only validated when React is run in development mode.
+You should not rely on `propTypes` in production though. For performance reasons, props are only validated when React is run in development mode.
 
 ## Challenge!
 
