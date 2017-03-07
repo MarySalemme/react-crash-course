@@ -72,5 +72,8 @@
       "babel-register"
     ],
     "babel": "inherit"
+  },
+  "devDependencies": {
+    "react-addons-test-utils": "^15.4.2"
   }
 }
