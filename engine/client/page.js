@@ -66,7 +66,7 @@ class Page extends React.Component {
         <Header {...this.state} />
         {exercise}
         <div className='footer'>
-          © YLD Limited {year}
+          <a href='https://yld.io'>© YLD Limited {year}</a> Check out our blog <a href='https://blog.yld.io/'>https://blog.yld.io/</a>!
         </div>
       </div>
     );
