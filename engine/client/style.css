@@ -1,5 +1,5 @@
 body {
-  background-color: #2F3849;
+  background-color: rgb(33, 126, 158);
   color: black;
   font-family: sans-serif;
   padding-bottom: 40px;
@@ -32,13 +32,12 @@ body {
   font-size: 18px;
   float: left;
   margin-top: 6px;
-  background-color: #755690;
+  background-color: #1c2c44;
   color: white;
   border-radius: 3px;
   padding: 12px;
   margin-right: 20px;
 }
-
 
 .header .row .go-back .glyphicon {
   top: 4px;
@@ -77,6 +76,10 @@ body {
 .footer {
   text-align: center;
   color: #ddd;
+}
+
+.footer a {
+  color: #1c2c44;
 }
 
 .monospace {
