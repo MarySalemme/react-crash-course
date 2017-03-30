@@ -102,7 +102,7 @@ And a list of topics:
 ```
 
 Edit `index.js` to:
-  1. Have a `Topics` component that is going to instantiate a `List` component passing an array of topics to its properties;
+  1. Have a `Topics` component that is going to instantiate a `List` component. The `Topics` component should pass the list of topics to the `List` component as a prop;
   2. Have a `List` component that receives a property named `items` (an array of topics) and renders a `list-group` with each item as a `list-group-item`;
 
 ### Resources
