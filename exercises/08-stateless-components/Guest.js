@@ -10,7 +10,11 @@ class Guest extends React.Component {
         <td>{this.props.name}</td>
         <td>{this.props.children}</td>
         <td>
-          <button type='button' className='close' onClick={this.onRemoveClick.bind(this)}>
+          <button
+            type='button'
+            className='close'
+            onClick={this.onRemoveClick.bind(this)}
+          >
             <span>&times;</span>
           </button>
         </td>
@@ -18,5 +22,9 @@ class Guest extends React.Component {
     );
   }
 }
+
+Guest.propTypes = {
+  onRemove: React.PropTypes.func.isRequired
+};
 
 export default Guest;

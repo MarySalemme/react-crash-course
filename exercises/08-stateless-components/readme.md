@@ -3,7 +3,7 @@
 Most of the time your components don't manage any state. When that's the case, having a a full class with all of the state and lifecycle logic associated with it can be overkill. Stateless components solve that problem:
 
 ```js
-const Anchor = function(props) {
+const Anchor = (props) => {
   return (<a href={props.href}></a>);
 };
 
@@ -17,7 +17,7 @@ class App extends React.Component {
 This components also support `propTypes` and `defaultProps`:
 
 ```js
-const Anchor = function(props) {
+const Anchor = (props) => {
   return (<a href={props.href}></a>);
 };
 
@@ -27,6 +27,14 @@ Anchor.propTypes = {
 
 Anchor.defaultProps = {
   href: 'http://blog.yld.io'
+};
+```
+
+Please take into account that you can also use the destructuring ES6 feature and `Anchor` can be defined like the following:
+
+```js
+const Anchor = ({ href }) => {
+  return (<a href={href}></a>);
 };
 ```
 
