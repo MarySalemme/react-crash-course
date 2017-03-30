@@ -25,7 +25,10 @@ body {
   z-index: -1;
 }
 
-.header .row .go-back {
+.header .row .go-back-btn,
+.footer .row .go-back-btn,
+.header .row .go-next-btn,
+.footer .row .go-next-btn {
   font-size: 18px;
   float: left;
   margin-top: 6px;

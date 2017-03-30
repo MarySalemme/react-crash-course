@@ -2,12 +2,11 @@ import exercises from './.exercises.json';
 import ExerciseList from './exercise-list';
 import Instructions from './instructions';
 import isFinite from 'lodash.isfinite';
-import Header from './header';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Output from './output';
 import React from 'react';
 import values from 'lodash.values';
-
-const year = new Date().getFullYear();
 
 class Page extends React.Component {
   constructor(props) {
@@ -65,9 +64,7 @@ class Page extends React.Component {
       <div>
         <Header {...this.state} />
         {exercise}
-        <div className='footer'>
-          <a href='https://yld.io'>© YLD Limited {year}</a> Check out our blog <a href='https://blog.yld.io/'>https://blog.yld.io/</a>!
-        </div>
+        <Footer {...this.state}/>
       </div>
     );
   }
