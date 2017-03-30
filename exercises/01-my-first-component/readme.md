@@ -16,7 +16,7 @@ class Anchor extends React.Component {
 
 Here we are creating a component named `Anchor`, that will render an anchor tag with an `href` that points to the *YLD* website.
 
-You might find this syntax odd: we are mixing HTML with Javascript.
+You might find this syntax odd: we are mixing HTML with JavaScript.
 
 #### ES5 vs ES2015
 
@@ -34,7 +34,7 @@ Although our future code snippets are going to be in ES2015, you can use both in
 
 ### JSX
 
-**JSX** is a small layer on top of Javascript that allows you to inline HTML in your code. Think of a tag as a variable in Javascript - and that's what actually happens when you transpile JSX into Javascript:
+**JSX** is a small layer on top of JavaScript that allows you to inline HTML in your code. Think of a tag as a variable in JavaScript - and that's what actually happens when you transpile JSX into JavaScript:
 
 ```javascript
 class Anchor extends React.Component {

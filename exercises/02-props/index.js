@@ -14,7 +14,7 @@ Book.defaultProps = {};
 class Library extends React.Component {
   render() {
     const read = true;
-    const title = 'Professional Node.js: Building Javascript Based Scalable Software';
+    const title = 'Professional Node.js: Building JavaScript Based Scalable Software';
 
     return (
       <ul>

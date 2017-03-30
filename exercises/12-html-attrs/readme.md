@@ -2,13 +2,13 @@
 
 ### HTML attributes
 
-Because **JSX** is transpiled into Javascript and some HTML attributes conflict with reserved Javascript keywords, they have to be renamed:
+Because **JSX** is transpiled into JavaScript and some HTML attributes conflict with reserved JavaScript keywords, they have to be renamed:
   * `className` should be used instead of `class`
   * `htmlFor` should be used instead of `for`
 
 ### Styles
 
-When you want to inline a style, rather than using a `CSS` class, you declare styles in plain Javascript object.
+When you want to inline a style, rather than using a `CSS` class, you declare styles in plain JavaScript object.
 
 For instance:
 

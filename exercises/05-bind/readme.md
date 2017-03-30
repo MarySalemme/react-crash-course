@@ -18,9 +18,9 @@ class Anchor extends React.Component {
 
 React has support for a bunch of DOM events. You can check them in the [React documentation](https://facebook.github.io/react/docs/events.html)
 
-### Javascript `.bind`
+### JavaScript `.bind`
 
-When using classes and `this` in javascript, often we need to bind the functions to the class instance that we are dealing with.
+When using classes and `this` in JavaScript, often we need to bind the functions to the class instance that we are dealing with.
 
 For instance:
 

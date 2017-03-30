@@ -35,7 +35,7 @@ class App extends React.Component {
 };
 ```
 
-You see how we are instantiating `Alert` twice in `App.render`? Because JSX is transpiled into javascript and tags behave as variables, we can use the tools provided by javascript to programatically instantiate both `Alert`s:
+You see how we are instantiating `Alert` twice in `App.render`? Because JSX is transpiled into JavaScript and tags behave as variables, we can use the tools provided by JavaScript to programmatically instantiate both `Alert`s:
 
 ```js
 class App extends React.Component {
