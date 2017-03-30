@@ -30,7 +30,7 @@ You should not rely on `propTypes` in production though. For performance reasons
 
   * Remember the Book example? Review the code;
 
-Edit index.js, BookForm.js and Book.js so that:
+Edit `index.js`, `BookForm.js` and `Book.js` so that:
   1. All components validate its props accordingly. If a prop is required for the component to work properly, it should be validated as that.
 
 ### Resources

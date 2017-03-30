@@ -30,8 +30,8 @@ Anchor.defaultProps = {
 };
 ```
 
-Much like the node.js concept of having tiny modules that compose on each-other to build large and complex systems, stateless components encourage the same pattern of trying to decouple your components as much as possible and have as little state as possible on each one.
+Much like the Node.js concept of having tiny modules that compose on each-other to build large and complex systems, stateless components encourage the same pattern of trying to decouple your components as much as possible and have as little state as possible on each one.
 
 ## Challenge!
 
- * Edit index.js, GuestList.js, Guest.js, BirthdayInfo.js so that every component that can be a stateless component, is a stateless component.
+ * Edit `index.js`, `GuestList.js`, `Guest.js`, `BirthdayInfo.js` so that every component that can be a stateless component, is a stateless component.
