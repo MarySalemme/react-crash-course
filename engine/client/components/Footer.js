@@ -19,7 +19,7 @@ const Footer = ({
           </div>
         </div>
         <div className='row'>
-          <a href='https://yld.io'>© YLD Limited {year}</a> Check out our blog <a href='https://blog.yld.io/'>https://blog.yld.io/</a>!
+          <a href='https://yld.io' target='_blank'>© YLD Limited {year}</a> Check out our blog <a href='https://blog.yld.io/' target='_blank'>https://blog.yld.io/</a>!
         </div>
       </div>
     </div>
