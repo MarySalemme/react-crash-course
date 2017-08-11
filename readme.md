@@ -3,7 +3,7 @@
 ## 1. Install the dependencies
 
 ```bash
-$ yarn install    // or just `yarn`
+$ yarn
 ```
 
 Alternative:
