@@ -1,3 +1,4 @@
 node_modules
 exercises/.exercises.json
 /engine/client/.exercises.json
+npm-debug.log
