@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Guest = ({
   onRemove,
@@ -23,7 +24,7 @@ const Guest = ({
 };
 
 Guest.propTypes = {
-  onRemove: React.PropTypes.func.isRequired
+  onRemove: PropTypes.func.isRequired
 };
 
 export default Guest;

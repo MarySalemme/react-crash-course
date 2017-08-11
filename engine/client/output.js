@@ -6,9 +6,7 @@ const {
   fetch
 } = Fetch;
 
-const {
-  PropTypes
-} = React;
+const PropTypes = require('prop-types');
 
 /*
   validating -> component

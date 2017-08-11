@@ -22,7 +22,7 @@ const Anchor = (props) => {
 };
 
 Anchor.propTypes = {
-  href: React.PropTypes.string
+  href: PropTypes.string
 };
 
 Anchor.defaultProps = {

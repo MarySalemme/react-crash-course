@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Guest extends React.Component {
   onRemoveClick() {
@@ -24,7 +25,7 @@ class Guest extends React.Component {
 }
 
 Guest.propTypes = {
-  onRemove: React.PropTypes.func.isRequired
+  onRemove: PropTypes.func.isRequired
 };
 
 export default Guest;

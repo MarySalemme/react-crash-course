@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Guest from './Guest.js';
 
@@ -106,7 +107,7 @@ class GuestList extends React.Component {
 }
 
 GuestList.propTypes = {
-  guestList: React.PropTypes.array.isRequired
+  guestList: PropTypes.array.isRequired
 };
 
 export default GuestList;
