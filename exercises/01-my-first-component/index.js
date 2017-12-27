@@ -3,7 +3,9 @@ import React from 'react';
 class HelloWorld extends React.Component {
 
   render() {
-    // TODO write your component here
+    return (
+      <h1>Hello YLD</h1>
+    )
     return null;
   }
 }
