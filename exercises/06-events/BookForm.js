@@ -1,4 +1,6 @@
 import React from 'react';
+import Book from './index.js';
+import PropTypes from 'prop-types';
 
 class BookForm extends React.Component {
   constructor() {
@@ -10,14 +12,18 @@ class BookForm extends React.Component {
   }
 
   changeTitle(ev) {
-    // TODO change the title
+    this.setState({
+      title: ev.target.value
+    })
   }
   changeRead() {
-    // TODO change the read value
+    this.setState({
+      read: !this.state.read
+    })
   }
   addBook() {
     // TODO update the parent!
-
+    this.props.onBook(this.state);
     // reset the inputs
     this.setState({
       title: '',
@@ -31,7 +37,7 @@ class BookForm extends React.Component {
           <label htmlFor='title'>Title</label>
           <input
             value={this.state.title}
-            onChange={this.changeTitle}
+            onChange={this.changeTitle.bind(this)}
             placeholder='Title' type='text'
             className='form-control'
             id='title'
@@ -42,7 +48,7 @@ class BookForm extends React.Component {
             <span>Read: </span>
             <input
               checked={this.state.read}
-              onChange={this.changeRead}
+              onChange={this.changeRead.bind(this)}
               type='checkbox'
               id='read'
             />
@@ -51,7 +57,7 @@ class BookForm extends React.Component {
         <div className='form-group'>
           <button
             className='btn btn-default'
-            onClick={this.addBook}
+            onClick={this.addBook.bind(this)}
           >Add Book</button>
         </div>
       </div>

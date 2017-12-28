@@ -8,18 +8,20 @@ class Books extends React.Component {
     this.state = {
       books: [{
         title: 'Professional Node.js',
-        author: 'Pedro Teixeira'
+        author: 'Pedro Teixeira',
+        read: true
       }]
     };
   }
 
   onBook(book) {
     this.state.books.push(book);
-
+    console.log(this.state.books);
     this.setState({
       books: this.state.books
     });
   }
+
   render() {
     const books = this.state.books.map(function(book) {
       return (
