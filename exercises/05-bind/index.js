@@ -10,6 +10,13 @@ class HiddenMessage extends React.Component {
       msg: 'Hello World'
     };
   }
+
+  onClick() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    })
+  }
+
   render() {
     const style = {
       display: this.state.collapsed ? 'none' : 'block'
@@ -20,6 +27,7 @@ class HiddenMessage extends React.Component {
         <button
           type='button'
           className='btn btn-default'
+          onClick={this.onClick.bind(this)}
         >
           {this.state.label}
         </button>
