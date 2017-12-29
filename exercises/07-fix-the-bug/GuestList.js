@@ -42,7 +42,7 @@ class GuestList extends React.Component {
     });
   }
   render() {
-    const guests = this.props.guestList.map(function(guest) {
+    const guests = this.state.guestList.map(function(guest) {
       return (
         <Guest
           name={guest.name}
