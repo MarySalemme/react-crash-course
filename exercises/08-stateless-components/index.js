@@ -3,18 +3,16 @@ import React from 'react';
 import GuestList from './GuestList.js';
 import BirthdayInfo from './BirthdayInfo.js';
 
-class BirthdayContentPage extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Birthday Party</h1>
-        <BirthdayInfo/>
-        <GuestList
-          guestList={this.props.guestList}
-        />
-      </div>
-    );
-  }
+const BirthdayContentPage = (props) => {
+  return (
+    <div>
+      <h1>Birthday Party</h1>
+      <BirthdayInfo/>
+      <GuestList
+        guestList={props.guestList}
+      />
+    </div>
+  );
 }
 
 export default class extends React.Component {

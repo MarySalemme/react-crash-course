@@ -1,27 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Guest extends React.Component {
-  onRemoveClick() {
-    this.props.onRemove(this.props.name);
+const Guest = (props) => {
+  const onRemoveClick = () => {
+    props.onRemove(props.name);
   }
-  render() {
-    return (
-      <tr>
-        <td>{this.props.name}</td>
-        <td>{this.props.children}</td>
-        <td>
-          <button
-            type='button'
-            className='close'
-            onClick={this.onRemoveClick.bind(this)}
-          >
-            <span>&times;</span>
-          </button>
-        </td>
-      </tr>
-    );
-  }
+
+  return (
+    <tr>
+      <td>{props.name}</td>
+      <td>{props.children}</td>
+      <td>
+        <button
+          type='button'
+          className='close'
+          onClick={onRemoveClick}
+        >
+          <span>&times;</span>
+        </button>
+      </td>
+    </tr>
+  );
 }
 
 Guest.propTypes = {
