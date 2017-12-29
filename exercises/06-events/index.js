@@ -16,7 +16,6 @@ class Books extends React.Component {
 
   onBook(book) {
     this.state.books.push(book);
-    console.log(this.state.books);
     this.setState({
       books: this.state.books
     });
